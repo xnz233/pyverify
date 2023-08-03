@@ -2,10 +2,6 @@ import tkinter as tk
 
 import pyverify
 
-root = tk.Tk()
-root.geometry("300x300")
-root.title("OTP验证器demo")
-
 
 def make_qrcode():
     # noinspection PyGlobalUndefined
@@ -15,7 +11,7 @@ def make_qrcode():
     c1.grid(row=1, column=2)
 
 
-def auth(event):
+def auth(event=''):
     user_input = e1.get()
     if pyverify.verify(user_input):
         var.set('验证成功！')
@@ -24,6 +20,9 @@ def auth(event):
 
 
 def manage():
+    root = tk.Tk()
+    root.geometry("300x300")
+    root.title("OTP验证器demo")
     # noinspection PyGlobalUndefined
     global c1, e1, var
     b1 = tk.Button(root, text='生成二维码', command=make_qrcode)
@@ -45,7 +44,3 @@ def manage():
     l2.place(x=148, y=250)
 
     root.mainloop()
-
-
-if __name__ == "__main__":
-    manage()

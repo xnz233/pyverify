@@ -1,4 +1,4 @@
-pyverify/secdata.pass
+secdata.pass
 test.py
 dist/
 .idea/
