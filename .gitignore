@@ -2,3 +2,4 @@ secdata.pass
 test.py
 dist/
 sec/
+.idea/
