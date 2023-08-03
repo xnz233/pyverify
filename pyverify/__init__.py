@@ -1,4 +1,3 @@
-from verify import *
-from utils import *
+from pyverify.verify import *
+from pyverify.utils import *
 
-print("pyverify tool init.")
