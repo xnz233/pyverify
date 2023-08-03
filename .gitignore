@@ -1,3 +1,4 @@
-/secdata.pass
+secdata.pass
 test.py
-dist
+dist/
+sec/
