@@ -1,4 +1,4 @@
-secdata.pass
+pyverify/secdata.pass
 test.py
 dist/
 sec/
