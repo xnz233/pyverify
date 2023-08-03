@@ -8,7 +8,7 @@ from PIL import ImageTk
 def verify(user):
     """读取秘钥文件"""
     try:
-        with open('secdata.pass', 'r') as f:
+        with open('../secdata.pass', 'r') as f:
             sec = f.read()
         totp = pyotp.TOTP(sec)
         result = totp.verify(user)
@@ -20,7 +20,7 @@ def verify(user):
 def init():
     """生成秘钥和对应二维码并返回Tk图像"""
     sec = pyotp.random_base32()
-    with open('secdata.pass', 'w') as f:
+    with open('../secdata.pass', 'w') as f:
         f.write(sec)
     totp = pyotp.TOTP(sec)
     uri = totp.provisioning_uri(name='admin', issuer_name='demo')
