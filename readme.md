@@ -16,7 +16,7 @@ Tips:秘钥存储在运行目录下的`secdata.pass`文件中
 
 ### 安装
 你可以在终端执行pip来安装：  
-`pip install pyverify`
+`pip install pyverify-xnz233`
 
 ### 生成器
 
