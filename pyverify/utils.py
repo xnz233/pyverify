@@ -44,3 +44,7 @@ def manage():
     l2.place(x=148, y=250)
 
     root.mainloop()
+
+
+if __name__ == '__main__':
+    manage()
