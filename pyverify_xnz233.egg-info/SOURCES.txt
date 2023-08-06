@@ -6,5 +6,6 @@ pyverify/verify.py
 pyverify_xnz233.egg-info/PKG-INFO
 pyverify_xnz233.egg-info/SOURCES.txt
 pyverify_xnz233.egg-info/dependency_links.txt
+pyverify_xnz233.egg-info/requires.txt
 pyverify_xnz233.egg-info/top_level.txt
 test/test.py

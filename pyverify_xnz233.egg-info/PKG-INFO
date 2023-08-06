@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pyverify-xnz233
-Version: 1.0.0
+Version: 1.1.0
 Summary: A small verify project
 Home-page: https://github.com/xnz233/pyverify
 Author: xnz233
@@ -30,7 +30,7 @@ Tips:秘钥存储在运行目录下的`secdata.pass`文件中
 
 ### 安装
 你可以在终端执行pip来安装：  
-`pip install pyverify`
+`pip install pyverify-xnz233`
 
 ### 生成器
 

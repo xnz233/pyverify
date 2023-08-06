@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="UTF-8") as fh:
 
 setuptools.setup(
     name="pyverify-xnz233",  # Replace with your own username
-    version="1.0.0",
+    version="1.1.0",
     author="xnz233",
     author_email="jl3362518@163.com",
     description="A small verify project",
@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/xnz233/pyverify",
     packages=setuptools.find_packages(),
+    install_requires=["qrcode[pil]", "pyotp", "pillow"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
