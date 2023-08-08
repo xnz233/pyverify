@@ -1,4 +1,5 @@
-# pyverify包
+# pyverify
+![PyPI](https://img.shields.io/pypi/v/pyverify-xnz233)
 
 ## 简介
 
