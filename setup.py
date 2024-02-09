@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="UTF-8") as fh:
 
 setuptools.setup(
     name="pyverify-xnz233",  # Replace with your own username
-    version="1.1.0",
+    version="1.1.2",
     author="xnz233",
     author_email="jl3362518@163.com",
     description="A small verify project",

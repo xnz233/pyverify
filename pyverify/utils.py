@@ -1,19 +1,18 @@
 import tkinter as tk
-
-import pyverify
+from . import verify
 
 
 def make_qrcode():
     # noinspection PyGlobalUndefined
     global img
-    img = pyverify.init()
+    img = verify.init()
     c1.create_image(2, 2, anchor='nw', image=img)
     c1.grid(row=1, column=2)
 
 
 def auth(event=''):
     user_input = e1.get()
-    if pyverify.verify(user_input):
+    if verify.verify(user_input):
         var.set('验证成功！')
     else:
         var.set('验证失败！')
@@ -45,6 +44,5 @@ def manage():
 
     root.mainloop()
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     manage()

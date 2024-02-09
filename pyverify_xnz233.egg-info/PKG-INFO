@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pyverify-xnz233
-Version: 1.1.0
+Version: 1.1.2
 Summary: A small verify project
 Home-page: https://github.com/xnz233/pyverify
 Author: xnz233
@@ -12,7 +12,8 @@ Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-# pyverify包
+# pyverify
+![PyPI](https://img.shields.io/pypi/v/pyverify-xnz233)
 
 ## 简介
 

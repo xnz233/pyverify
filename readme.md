@@ -3,7 +3,7 @@
 
 ## 简介
 
-pyverify包是一个基于`tkinter`库实现的GUI身份验证库
+pyverify包是一个基于`tkinter`和`pyotp`库实现的GUI身份验证库
 ### 主要功能
 - 为您的`py`文件能够快速使用TOTP认证的功能
 - 提供一个简易的二维码生成器，可生成手机app可用的二维码
@@ -23,15 +23,12 @@ Tips:秘钥存储在运行目录下的`secdata.pass`文件中
 
 
 - 生成秘钥
-  - 方法一：运行包中的简易生成器`utils.py`
-  - 方法二：调用包中`manage()`函数:
 ```python
-import pyverify
-pyverify.manage()
+python -m pyverify.utils.py
 ```
 
 - 读取秘钥
-  - 方法一：手机app扫码
+  - 方法一：各种2FA手机APP扫码
   - 方法二：查看运行目录下`secdata.pass`文件
 
 ### 验证程序
